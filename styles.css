@@ -1,14 +1,45 @@
-body {
-    background-color: rgb(255, 255, 255);
+* {
+  box-sizing: border-box;
 }
 
-ul li {
-    list-style-type: none;
+body {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5em;
 }
 
 button {
-    background-color: rgb(83, 182, 126);
-    border: rgb(65, 139, 98) 2px;
-    border-radius: 5%;
-    color: white;
+  background-color: rgb(83, 182, 126);
+  border: rgb(65, 139, 98) 2px;
+  border-radius: 5%;
+  color: white;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(83, 182, 126);
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
