@@ -8,6 +8,7 @@
 * **Telegram:** @mart_iam
 * **Discord:** Martior157
 * **Codepen:** @martior157
+
 ----
 ### About Me
 
@@ -19,6 +20,7 @@ I love learning new things.
 Hobbies: 
 * Foreign languages
 * Knitting and crochetting
+
 ----
 ### Skills
 
@@ -26,6 +28,7 @@ Hobbies:
 * CSS
 * JavaScript (Fundamentals, ES6+)
 * Git, GitHub
+
 ----
 ### Code Example
 
@@ -48,6 +51,7 @@ String.prototype.toJadenCase = function () {
 * Rolling Scopes School Course "Javacript/Front-End. Stage 0" (in progress)
 * Udemy:
   - The Complete JavaScript Course 2022: From Zero to Expert! (in progress)
+
 ----
 ### Languages
 
