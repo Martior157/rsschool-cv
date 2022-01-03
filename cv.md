@@ -29,7 +29,7 @@ Hobbies:
 ----
 ### Code Example
 
-[freecodecamp HTML & CSS task](https://codepen.io/martior157/pen/jOmqdqd)
+Survey Form [freecodecamp HTML & CSS task](https://codepen.io/martior157/pen/jOmqdqd)
 
 Jaden Casing Strings [(Codewars JS task)](https://www.codewars.com/kata/5390bac347d09b7da40006f6): 
 
@@ -39,7 +39,7 @@ String.prototype.toJadenCase = function () {
   for (let i = 0; i < arr.length; i++) {
     arr[i] = arr[i][0].toUpperCase() + arr[i].substr(1);  
   }
-  return arr.join(" ");//...
+  return arr.join(" ");
 };
 ```
 ----
