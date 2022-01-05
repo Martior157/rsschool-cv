@@ -1,78 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Marina Tokareva - CV</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Junior Frontend - CV</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <h1>Marina Tokareva CV</h1>
+      <h1>Marina Tokareva</h1>
+      <p>Junior Frontend Developer</p>
     </header>
 
     <nav>
       <ul>
-        <li><a href="contacts">Contacts</a></li>
-        <li><a href="about">About Me</a></li>
-        <li><a href="skills">Skills</a></li>
-        <li><a href="projects">Portfolio</a></li>
-        <li><a href="education">Education</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-example">Code Example</a></li>
+        <li><a href="#education">Education</a></li>
       </ul>
     </nav>
 
-    <main class="container">
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          My goal is to become a front-end developer. I’ve always been
-          interested in IT. I find web development a great opportunity to use
-          not only logical skills but also creative ones. I love learning new
-          things.
-        </p>
-        <img src="./avatar.png" alt="personas avatar" />
-      </section>
+    <main>
+      <div class="personal">
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li><b>Email:</b> martior157@gmail.com</li>
+            <li><b>Telegram:</b> @mart_iam</li>
+            <li><b>Discord:</b> Martior157</li>
+            <li><b>Codepen:</b> @martior157</li>
+          </ul>
+        </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git</li>
-        </ul>
-      </section>
+        <div class="picture">
+          <img src="./avatar.png" alt="personas avatar" />
+        </div>
 
-      <section id="education">
-        <p></p>
-      </section>
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I’ve always been interested in IT. I like studying and learning new
+            things.
+            <br />Fronted is the area where I can use my logical and creative
+            skills.
+          </p>
+        </section>
+      </div>
+      <div class="it-skills">
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
 
-      <section id="projects">
-        <h2>My projects</h2>
-      </section>
-
-      <section id="contacts">
-        <h2>Contacts</h2>
-        <ul>
-          <li><b>Email:</b> martior157@gmail.com</li>
-          <li><b>Telegram:</b> @mart_iam</li>
-          <li><b>Discord:</b> Martior157</li>
-          <li><b>Codepen:</b> @martior157</li>
-        </ul>
-
-        <form>
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email" />
-          <textarea width="300px" length="300px">Message</textarea>
-          <button>Send Message</button>
-        </form>
+        <section id="code-example">
+          <h2>Code Example</h2>
+          <p>
+            <a
+              href="https://www.codewars.com/kata/56606694ec01347ce800001b"
+              target="_blank"
+              >Is this a triangle? - Codewars</a
+            >
+          </p>
+          <pre class="code-example">
+        <code>
+    function isTriangle(a,b,c)
+        { 
+            return ((a + b > c) && (a + c > b) && (c + b > a))? true : false; 
+        }
+        </code>
+        </pre>
+        </section>
+      </div>
+      <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="courses">
+          <h3>Courses</h3>
+          <ul>
+            <li>
+              Rolling Scopes School <i>Course “Javacript/Front-End. Stage 0”</i>
+            </li>
+            <li>
+              Udemy:
+              <i>The Complete JavaScript Course 2022: From Zero to Expert!</i>
+            </li>
+          </ul>
+        </div>
+        <div class="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>
+              Russian
+              <span class="language-bar">
+                <span class="lang-lvl" style="width: 100%">Native</span>
+              </span>
+            </li>
+            <li>
+              English
+              <span class="language-bar">
+                <span class="lang-lvl" style="width: 49%">B1</span>
+              </span>
+            </li>
+            <li>
+              French
+              <span class="language-bar">
+                <span class="lang-lvl" style="width: 33%">A2</span>
+              </span>
+            </li>
+            <li>
+              Turkish
+              <span class="language-bar">
+                <span class="lang-lvl" style="width: 17%">A1</span>
+              </span>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-
     <footer>
-      <a href="https://github.com/Martior157">Martior157</a>
+      <a href="https://github.com/Martior157"
+        ><img class="github-logo" src="./github-logo.svg" alt="github logo"
+      /></a>
       <p>2022</p>
       <a href="https://rs.school/js/"
         ><img
+          class="rss-logo"
           src="https://rs.school/images/rs_school_js.svg"
           alt="RS School logo"
         />
